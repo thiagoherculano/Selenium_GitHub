@@ -6,8 +6,8 @@ navegador = webdriver.Chrome()
 navegador.maximize_window()
 navegador.get('https://github.com/login')
 
-Username_login = 'thiagoherculan@gmail.com'
-Senha_login = 'Thiago1820'
+Username_login = 'seu email'
+Senha_login = 'sua senha'
 
 campo_username = navegador.find_element_by_css_selector('#login_field')
 sleep(1)
